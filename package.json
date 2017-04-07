@@ -1,0 +1,50 @@
+{
+  "name": "p11-performance-optimization",
+  "version": "1.0.0",
+  "description": "Perform Front End Optimizations on Existing Demo Website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofianMourabit/performance-optimization.git"
+  },
+  "keywords": [
+    "JS",
+    "CSS",
+    "SVGO",
+    "SVG",
+    "Sprites",
+    "BEM",
+    "BABEL",
+    "GULP"
+  ],
+  "author": "Sofian Mourabit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofianMourabit/performance-optimization/issues"
+  },
+  "homepage": "https://github.com/SofianMourabit/performance-optimization#readme",
+  "dependencies": {
+    "foundation-sites": "^6.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.3.2",
+    "babili": "0.0.12",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-svg-sprite": "^1.3.6",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "pump": "^1.0.2"
+  }
+}

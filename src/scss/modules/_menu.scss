@@ -1,0 +1,86 @@
+/* =================================
+Menu Styles
+==================================== */
+.menu {
+  background-color: $color-default;
+  font-family: $font-family--primary;
+  padding: 1.5rem 3rem;
+  height: auto;
+}
+.menu .inline-list {
+  padding-top: 1rem;
+  text-align: center;
+}
+.menu .inline-list li {
+  float: none;
+  display: inline-block;
+}
+.menu .inline-list a {
+  color: $color-primary;
+  font-weight: $font-weight--bold;
+  letter-spacing: 0.125rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.menu .inline-list a:hover {
+  color: $color-accent;
+  transition: all $trns-duration ease-in-out;
+}
+.menu .inline-list .active a {
+  color: $color-accent;
+}
+@include mq(medium) {
+  .menu {
+    height: 7rem;
+  }
+  .menu .inline-list {
+    float: left;
+    margin: 0 0 0 1.5rem;
+  }
+}
+.menu .account {
+  float: right;
+  margin: -.75rem 0 0 0;
+}
+.menu .account li {
+  margin-left: .2rem;
+}
+.menu .account a {
+  border: 2px solid;
+  border-radius: .25rem;
+  color: $color-border;
+  font-family: $font-family--secondary;
+  font-weight: $font-weight--medium;
+  letter-spacing: normal;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  text-transform: none;
+}
+.menu .account a:hover {
+  background-color: $color-accent;
+  border-color: $color-accent;
+  color: $white;
+}
+.menu .logo {
+  background: url('../img/logo.png') no-repeat top left;
+  background-size: contain;
+  font-family: $font-family--primary;
+  font-size: 2rem;
+  font-weight: $font-weight--bold;
+  line-height: 1;
+  margin: 0 0 1rem 0;
+  color: $color-primary;
+  text-indent: -9999999rem;
+  overflow: hidden;
+  width: 40rem;
+  height: 3rem;
+}
+.menu .logo b {
+  color: $color-secondary;
+  font-family: $font-family--secondary;
+}
+@include mq(medium) {
+  .logo {
+    float: left;
+  }
+}

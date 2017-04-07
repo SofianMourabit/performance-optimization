@@ -1,0 +1,45 @@
+/* =================================
+Global config
+==================================== */
+
+// Font Stacks
+
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Arvo:400,400i,700|Ubuntu:300,400,500';
+$font-family--primary    : 'Arvo', sans-serif;
+$font-family--secondary  : 'Ubuntu', serif;
+
+// Font Weights
+
+$font-weight--light      : 300;
+$font-weight--normal     : 400;
+$font-weight--medium     : 500;
+$font-weight--bold       : 700;
+
+// Descriptive Base Colors
+
+$white      : #fff;
+
+$river-bed  : #495560;
+$oslo-gray  : #7D8892;
+$slate-gray : #7B8895;
+$porcelain  : #EFF0F1;
+$emerald    : #52CA6D;
+$scooter    : #2FABCE;
+
+// Color Usage
+
+$color-default      : $porcelain;
+$color-primary      : $river-bed;
+$color-secondary    : $scooter;
+$color-accent       : $emerald;
+$color-border       : $slate-gray;
+$color-footer       : $oslo-gray;
+
+// Transitions
+
+$trns-duration  : .3s;
+
+// Breakpoints
+
+
+$brkpoint--md    : 641px;
