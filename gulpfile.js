@@ -11,7 +11,16 @@ uglify = require('gulp-uglify'),
 server = require('gulp-server-livereload'),
 del = require('del'),
 pump = require('pump'),
+spritesmith = require('gulp.spritesmith'),
 svgSprite = require('gulp-svg-sprite');
+
+gulp.task('sprite', function () {
+  var spriteData = gulp.src('src/img/avatars/*').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+  return spriteData.pipe(gulp.dest('dist/img/avatars'));
+});
 
 // Styles
 gulp.task('styles', function() {
